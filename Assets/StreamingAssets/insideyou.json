@@ -1,0 +1,1024 @@
+{
+    "notes": [
+        {
+            "timeStamp": 2.0906577110290529,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 0.6613378524780273
+        },
+        {
+            "timeStamp": 2.0906577110290529,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 0.6613378524780273
+        },
+        {
+            "timeStamp": 2.9226529598236086,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 3.1146485805511476,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 3.327981948852539,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 3.498662233352661,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 3.7119953632354738,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 4.991995334625244,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 2.0266666412353517
+        },
+        {
+            "timeStamp": 4.991995334625244,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 2.0479822158813478
+        },
+        {
+            "timeStamp": 7.637324333190918,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 7.807981967926025,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 8.149319648742676,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 8.469319343566895,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 8.76798152923584,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 9.002653121948243,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 10.837324142456055,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 10.98664379119873,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 11.199976921081543,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 11.391995429992676,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 11.647981643676758,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 12.05331039428711,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 12.287981986999512,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 1.2799997329711915
+        },
+        {
+            "timeStamp": 12.287981986999512,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 1.2799997329711915
+        },
+        {
+            "timeStamp": 14.613310813903809,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 15.018662452697754,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 15.765328407287598,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 15.935986518859864,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 16.3413143157959,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 16.72532844543457,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 17.45065689086914,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 17.578662872314454,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 17.749319076538087,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 18.197324752807618,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 18.346643447875978,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 18.986644744873048,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 19.157323837280275,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 19.349319458007814,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 19.54131507873535,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 19.73331069946289,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 19.946643829345704,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 20.543991088867189,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 20.842653274536134,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 21.034648895263673,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 21.22664451599121,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 21.52532958984375,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 21.823991775512697,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 21.994647979736329,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 23.87199592590332,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 24.02131462097168,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 24.21331024169922,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 24.46932029724121,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 24.74664306640625,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 25.023990631103517,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 25.237323760986329,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 25.68532943725586,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 26.261314392089845,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 26.517324447631837,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 26.837324142456056,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 27.26399040222168,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 27.73331069946289,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 2.3466663360595705
+        },
+        {
+            "timeStamp": 27.73331069946289,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 2.3466663360595705
+        },
+        {
+            "timeStamp": 30.421314239501954,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 30.805328369140626,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 31.274648666381837,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 32.34131622314453,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 32.51199722290039,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 32.87464904785156,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 33.322654724121097,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 33.74932098388672,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 34.15464782714844,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 34.943992614746097,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 35.73331069946289,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 36.159976959228519,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 36.62931823730469,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 36.99199676513672,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 37.39732360839844,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 37.88798141479492,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 38.037322998046878,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 0.17065811157226563
+        },
+        {
+            "timeStamp": 38.39997863769531,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 38.613311767578128,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 38.97598648071289,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 39.1679801940918,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 39.61598587036133,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 40.10664367675781,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 40.575984954833987,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 41.06664276123047,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 41.64265441894531,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 42.111995697021487,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 0.17065811157226563
+        },
+        {
+            "timeStamp": 42.55997848510742,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 42.98664474487305,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 43.39199447631836,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 43.39199447631836,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 43.8613166809082,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 43.882652282714847,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 44.28798294067383,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 0.6399993896484375
+        },
+        {
+            "timeStamp": 44.28798294067383,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 0.6399993896484375
+        },
+        {
+            "timeStamp": 45.11997604370117,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 0.6613388061523438
+        },
+        {
+            "timeStamp": 45.098663330078128,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 0.7253265380859375
+        },
+        {
+            "timeStamp": 45.99464797973633,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 0.5333328247070313
+        },
+        {
+            "timeStamp": 45.99464797973633,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 0.5333328247070313
+        },
+        {
+            "timeStamp": 46.84798049926758,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 0.44800567626953127
+        },
+        {
+            "timeStamp": 46.84798049926758,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 0.4906806945800781
+        },
+        {
+            "timeStamp": 47.50931930541992,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 0.5760078430175781
+        },
+        {
+            "timeStamp": 47.50931930541992,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 0.5973243713378906
+        },
+        {
+            "timeStamp": 48.319976806640628,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 0.4693412780761719
+        },
+        {
+            "timeStamp": 48.319976806640628,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 0.4906806945800781
+        },
+        {
+            "timeStamp": 49.13065719604492,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 0.2773246765136719
+        },
+        {
+            "timeStamp": 49.15199661254883,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 0.2559852600097656
+        },
+        {
+            "timeStamp": 49.57866287231445,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 49.57866287231445,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 49.919979095458987,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 49.919979095458987,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 50.3253288269043,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 50.3253288269043,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 50.709320068359378,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 0.3626747131347656
+        },
+        {
+            "timeStamp": 50.709320068359378,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 0.3839912414550781
+        },
+        {
+            "timeStamp": 51.64798355102539,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 0.3626747131347656
+        },
+        {
+            "timeStamp": 51.64798355102539,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 0.3626747131347656
+        },
+        {
+            "timeStamp": 52.43732452392578,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 0.3626518249511719
+        },
+        {
+            "timeStamp": 52.43732452392578,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 0.3839912414550781
+        },
+        {
+            "timeStamp": 53.20532989501953,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 53.61065673828125,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 53.73866271972656,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 53.99464797973633,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 54.82664489746094,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 55.25331115722656,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 55.61598587036133,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 56.02131652832031,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 56.38399124145508,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 56.7893180847168,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 57.21598815917969,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 0.3626747131347656
+        },
+        {
+            "timeStamp": 57.21598815917969,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 0.3839874267578125
+        },
+        {
+            "timeStamp": 58.111995697021487,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 58.111995697021487,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 58.87997817993164,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 58.87997817993164,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 59.64798355102539,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 59.66931915283203,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 60.50131607055664,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 60.50131607055664,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 61.31199645996094,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 61.31199645996094,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 61.717323303222659,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 62.079978942871097,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 62.378662109375,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 62.71997833251953,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 63.1039924621582,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 63.42399215698242,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 63.658660888671878,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 64.0853271484375,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 64.49065399169922,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 64.78932189941406,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 65.10932159423828,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 65.3226547241211,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 65.74932098388672,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 66.17598724365235,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 66.49598693847656,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 66.75199890136719,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 66.92265319824219,
+            "buttonType": 1,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 67.34931945800781,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 67.49866485595703,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 0.170654296875
+        },
+        {
+            "timeStamp": 67.71199798583985,
+            "buttonType": 0,
+            "noteType": 0,
+            "duration": 0.0
+        },
+        {
+            "timeStamp": 68.13866424560547,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 2.4746475219726564
+        },
+        {
+            "timeStamp": 68.11732482910156,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 2.55999755859375
+        },
+        {
+            "timeStamp": 71.85065460205078,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 1.2800064086914063
+        },
+        {
+            "timeStamp": 71.85065460205078,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 1.3013381958007813
+        },
+        {
+            "timeStamp": 73.55732727050781,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 1.0880050659179688
+        },
+        {
+            "timeStamp": 73.55732727050781,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 1.10931396484375
+        },
+        {
+            "timeStamp": 74.9439926147461,
+            "buttonType": 1,
+            "noteType": 1,
+            "duration": 1.365325927734375
+        },
+        {
+            "timeStamp": 74.9439926147461,
+            "buttonType": 0,
+            "noteType": 1,
+            "duration": 1.3866653442382813
+        }
+    ]
+}

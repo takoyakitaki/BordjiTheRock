@@ -7,62 +7,101 @@ public class BeatmapSpawner : MonoBehaviour
     public AudioSource musicSource;
     public GameObject blueNotePrefab;
     public GameObject redNotePrefab;
-    
-    [Header("Positions (จุดต่างๆ ในฉาก)")]
-    public Transform leftSpawnPoint;  // จุดเกิดโน้ตฟ้า (ขวามือสุด)
-    public Transform rightSpawnPoint; // จุดเกิดโน้ตแดง (ขวามือสุด)
-    public Transform hitZoneButton;   // **ใหม่!** ลากปุ่มกด(สีฟ้าหรือแดงก็ได้) มาใส่ช่องนี้ เพื่อให้ระบบใช้วัดระยะทางออโต้
+    public GameObject blueLongNotePrefab;
+    public GameObject redLongNotePrefab;
 
-[Header("Settings")]
-    public float noteSpeed = 5f;      
-    
-    [Tooltip("ชดเชยเวลาที่มนุษย์กดช้าตอนอัด (วินาที) เช่น 0.1 หรือ 0.15")]
-    public float audioOffset = 0.1f; // <--- เพิ่มบรรทัดนี้
+    [Header("Positions")]
+    public Transform leftSpawnPoint;
+    public Transform rightSpawnPoint;
+    public Transform hitZoneButton;
 
+    [Header("Settings")]
+    public float noteSpeed   = 5f;
+    [Tooltip("ชดเชยเวลาที่มนุษย์กดช้าตอนอัด (วินาที)")]
+    public float audioOffset = 0.1f;
+
+    [Header("Beatmap")]
+    [Tooltip("ชื่อไฟล์ (ไม่มี .json) ใน Assets/beatmaps/")]
+    public string beatmapFileName = "Beatmap_Song1";
+
+    [Header("Countdown")]
+    public RhythmCountdown countdownUI;
+    [Tooltip("เปิด/ปิด การนับถอยหลังก่อนเล่น")]
+    public bool enableCountdown = true;
+
+    // ─── Internal ────────────────────────────────────────────────────────
     private BeatmapData beatmap;
-    private int noteIndex = 0;
-    private float gameTimer = 0f;
-    private float autoAdvanceTime = 0f; // เวลาล่วงหน้าที่ระบบคำนวณให้
+    private int   noteIndex       = 0;
+    private float gameTimer       = 0f;
+    private float autoAdvanceTime = 0f;
+    private bool  _musicStarted   = false;
+
+    // ─────────────────────────────────────────────────────────────────────
 
     void Start()
     {
-        // 1. บังคับปิด Play On Awake ผ่านโค้ดไปเลย เพื่อป้องกันบั๊กเพลงเล่นก่อน
         musicSource.playOnAwake = false;
         musicSource.Stop();
 
-        // 2. พระเอกของเรา: คำนวณเวลาล่วงหน้าอัตโนมัติจากระยะทางจริงในฉาก! (สูตร: เวลา = ระยะทาง / ความเร็ว)
         float distance = Mathf.Abs(leftSpawnPoint.position.x - hitZoneButton.position.x);
         autoAdvanceTime = distance / noteSpeed;
-        
-        Debug.Log($"[ระบบออโต้] ระยะทางจริงคือ {distance} | โน้ตวิ่งด้วยความเร็ว {noteSpeed} | เพลงจะดีเลย์รอ {autoAdvanceTime} วินาที");
 
-        LoadBeatmap();
-        
-        // 3. เริ่มนับเวลาเกมแบบติดลบ เผื่อเวลาให้โน้ตวิ่ง
-        gameTimer = -autoAdvanceTime; 
-        
-        // 4. สั่งให้เพลงรอก่อน แล้วค่อยเล่น
-        musicSource.PlayDelayed(autoAdvanceTime); 
-    }
+        Debug.Log($"[Spawner] ระยะทาง {distance:F2} | Speed {noteSpeed} | Delay {autoAdvanceTime:F2}s");
 
-    void LoadBeatmap()
-    {
-        string path = Application.dataPath + "/Beatmap_Song1.json";
-        if (File.Exists(path))
+        LoadBeatmap(beatmapFileName);
+
+        // ── ข้อ 3: Pre-calculate max score ทันทีหลัง load ───────────────
+        if (beatmap != null && ScoreManager.instance != null)
+            ScoreManager.instance.PreCalculateMaxScore(beatmap);
+
+        gameTimer = -autoAdvanceTime;
+
+        // Start countdown or music directly
+        if (enableCountdown && countdownUI != null)
         {
-            string json = File.ReadAllText(path);
-            beatmap = JsonUtility.FromJson<BeatmapData>(json);
+            // Start countdown, then trigger music start
+            countdownUI.StartCountdown(OnCountdownComplete);
+        }
+        else
+        {
+            // No countdown, start music immediately
+            musicSource.PlayDelayed(autoAdvanceTime);
+            _musicStarted = true;
         }
     }
 
+    private void OnCountdownComplete()
+    {
+        // After countdown finishes, start the music
+        musicSource.PlayDelayed(autoAdvanceTime);
+        _musicStarted = true;
+        Debug.Log("[BeatmapSpawner] Countdown complete, music starting...");
+    }
+
+    void LoadBeatmap(string fileName)
+{
+    string path = Path.Combine(Application.streamingAssetsPath, fileName + ".json");
+
+    if (File.Exists(path))
+    {
+        string json = File.ReadAllText(path);
+        beatmap = JsonUtility.FromJson<BeatmapData>(json);
+        Debug.Log($"[Spawner] โหลด Beatmap: {path} ({beatmap.notes.Count} notes)");
+    }
+    else
+    {
+        Debug.LogError($"[Spawner] ไม่พบไฟล์: {path}");
+    }
+}
+
     void Update()
     {
-        if (beatmap == null || noteIndex >= beatmap.notes.Count) return;
+        if (beatmap == null || noteIndex >= beatmap.notes.Count || !_musicStarted) return;
 
         gameTimer += Time.deltaTime;
 
-        // เสกโน้ตล่วงหน้าตามเวลาที่คำนวณได้
-        while (noteIndex < beatmap.notes.Count && gameTimer >= (beatmap.notes[noteIndex].timeStamp - audioOffset) - autoAdvanceTime)
+        while (noteIndex < beatmap.notes.Count &&
+               gameTimer >= (beatmap.notes[noteIndex].timeStamp - audioOffset) - autoAdvanceTime)
         {
             SpawnNote(beatmap.notes[noteIndex]);
             noteIndex++;
@@ -72,14 +111,17 @@ public class BeatmapSpawner : MonoBehaviour
     void SpawnNote(NoteData data)
     {
         Transform spawnPoint = (data.buttonType == 0) ? leftSpawnPoint : rightSpawnPoint;
-        GameObject prefabToSpawn = (data.buttonType == 0) ? blueNotePrefab : redNotePrefab;
-        
+
+        GameObject prefabToSpawn;
+        if (data.noteType == 0)
+            prefabToSpawn = (data.buttonType == 0) ? blueNotePrefab : redNotePrefab;
+        else
+            prefabToSpawn = (data.buttonType == 0) ? blueLongNotePrefab : redLongNotePrefab;
+
         GameObject newNote = Instantiate(prefabToSpawn, spawnPoint.position, Quaternion.identity);
-        
+
         Note noteScript = newNote.GetComponent<Note>();
         if (noteScript != null)
-        {
-            noteScript.speed = noteSpeed;
-        }
+            noteScript.SetupNote(data.noteType, data.duration, noteSpeed);
     }
 }

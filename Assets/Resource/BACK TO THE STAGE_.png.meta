@@ -1,0 +1,621 @@
+fileFormatVersion: 2
+guid: 2773c2b011465d248ad6be8987e6453b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4337348181978882873
+    second: BACK TO THE STAGE__0
+  - first:
+      213: -2360219164251473127
+    second: BACK TO THE STAGE__1
+  - first:
+      213: 5653028449850057932
+    second: BACK TO THE STAGE__2
+  - first:
+      213: -751623241225797102
+    second: BACK TO THE STAGE__3
+  - first:
+      213: -4979914861896787235
+    second: BACK TO THE STAGE__4
+  - first:
+      213: -8519237977296206378
+    second: BACK TO THE STAGE__5
+  - first:
+      213: -5764389201751611417
+    second: BACK TO THE STAGE__6
+  - first:
+      213: 723187878611959190
+    second: BACK TO THE STAGE__7
+  - first:
+      213: 7065483810615308692
+    second: BACK TO THE STAGE__8
+  - first:
+      213: 4852951223432393964
+    second: BACK TO THE STAGE__9
+  - first:
+      213: 3696985405822468989
+    second: BACK TO THE STAGE__10
+  - first:
+      213: 8444294310195710521
+    second: BACK TO THE STAGE__11
+  - first:
+      213: -7434842364808253946
+    second: BACK TO THE STAGE__12
+  - first:
+      213: -8640695173507672654
+    second: BACK TO THE STAGE__13
+  - first:
+      213: -9203558453987315522
+    second: BACK TO THE STAGE__14
+  - first:
+      213: 4440228566549928420
+    second: BACK TO THE STAGE__15
+  - first:
+      213: 1998783019615521422
+    second: BACK TO THE STAGE__16
+  - first:
+      213: -6715349505940948747
+    second: BACK TO THE STAGE__17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cc56f90fc4aec3c0800000000000000
+      internalID: -4337348181978882873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 7
+        width: 34
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91bb8b2dc21de3fd0800000000000000
+      internalID: -2360219164251473127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__2
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 8
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc46d729c67937e40800000000000000
+      internalID: 5653028449850057932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__3
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 9
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2120fc5f4a2b195f0800000000000000
+      internalID: -751623241225797102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__4
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 8
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda14fc51d9c3eab0800000000000000
+      internalID: -4979914861896787235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__5
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 7
+        width: 30
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d50e3e423695c980800000000000000
+      internalID: -8519237977296206378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__6
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 8
+        width: 33
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e76f72ef86c000b0800000000000000
+      internalID: -5764389201751611417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__7
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 7
+        width: 32
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69db8824b87490a00800000000000000
+      internalID: 723187878611959190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__8
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 9
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 491bff95714ad0260800000000000000
+      internalID: 7065483810615308692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__9
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 8
+        width: 30
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce43cf8fc65295340800000000000000
+      internalID: 4852951223432393964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__10
+      rect:
+        serializedVersion: 2
+        x: 377
+        y: 8
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d730add93a45e4330800000000000000
+      internalID: 3696985405822468989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__11
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 7
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a41127fe8203570800000000000000
+      internalID: 8444294310195710521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__12
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 9
+        width: 33
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e249cb24222d890800000000000000
+      internalID: -7434842364808253946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__13
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 9
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b594a22585161880800000000000000
+      internalID: -8640695173507672654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__14
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 24
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0fa804954664080800000000000000
+      internalID: -9203558453987315522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__15
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 8
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e910ce1b5cde9d30800000000000000
+      internalID: 4440228566549928420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__16
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 10
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a044bf09a1dbb10800000000000000
+      internalID: 1998783019615521422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__17
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 0
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f87bcb24394ec2a0800000000000000
+      internalID: -6715349505940948747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BACK TO THE STAGE__18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 533
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c35b6ec305301e04ca8bb734e72eeb58
+      internalID: -16604802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 626182949d20f114681049987795df96
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BACK TO THE STAGE__0: -4337348181978882873
+      BACK TO THE STAGE__1: -2360219164251473127
+      BACK TO THE STAGE__10: 3696985405822468989
+      BACK TO THE STAGE__11: 8444294310195710521
+      BACK TO THE STAGE__12: -7434842364808253946
+      BACK TO THE STAGE__13: -8640695173507672654
+      BACK TO THE STAGE__14: -9203558453987315522
+      BACK TO THE STAGE__15: 4440228566549928420
+      BACK TO THE STAGE__16: 1998783019615521422
+      BACK TO THE STAGE__17: -6715349505940948747
+      BACK TO THE STAGE__18: -16604802
+      BACK TO THE STAGE__2: 5653028449850057932
+      BACK TO THE STAGE__3: -751623241225797102
+      BACK TO THE STAGE__4: -4979914861896787235
+      BACK TO THE STAGE__5: -8519237977296206378
+      BACK TO THE STAGE__6: -5764389201751611417
+      BACK TO THE STAGE__7: 723187878611959190
+      BACK TO THE STAGE__8: 7065483810615308692
+      BACK TO THE STAGE__9: 4852951223432393964
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

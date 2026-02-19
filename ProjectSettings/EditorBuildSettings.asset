@@ -6,6 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Lobby.unity
+    guid: 84bac980910d5ed4399ccb2b9db4bfda
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: b86ae9d403b027a4da5d2d6746629709
+  - enabled: 1
+    path: Assets/Scenes/Rhythm1.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Rhythm2.unity
+    guid: 261466248d3a862469f9e78a22c821c5
+  - enabled: 1
+    path: Assets/Scenes/Rhythm3.unity
+    guid: de1df9c3fb224514ab7484ec5ef1b207
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0
