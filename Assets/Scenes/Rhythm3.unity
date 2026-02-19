@@ -1553,14 +1553,17 @@ MonoBehaviour:
   onFail:
     m_PersistentCalls:
       m_Calls: []
-  passPanel: {fileID: 0}
-  scorePercentText: {fileID: 0}
-  rankText: {fileID: 0}
+  passPanel: {fileID: 1827201974}
+  scorePercentText: {fileID: 442256962}
+  rankText: {fileID: 707731653}
   onPass:
     m_PersistentCalls:
       m_Calls: []
   scoreCounter: {fileID: 0}
   rankAnimator: {fileID: 0}
+  sfxSource: {fileID: 0}
+  passSfx: {fileID: 0}
+  failSfx: {fileID: 0}
   rankS: 90
   rankA: 75
   rankB: 60
@@ -1848,7 +1851,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 834435175}
         m_TargetAssemblyTypeName: RhythmResultHandler, Assembly-CSharp
         m_MethodName: OnPassRetry
         m_Mode: 1
@@ -2088,7 +2091,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 834435175}
         m_TargetAssemblyTypeName: RhythmResultHandler, Assembly-CSharp
         m_MethodName: OnPassNext
         m_Mode: 1
@@ -3736,6 +3739,12 @@ MonoBehaviour:
   greatThreshold: 1.09
   earlyPressDeadZone: 1.52
   debugLineHeight: 0.95
+  hitEffect: {fileID: 0}
+  audioSource: {fileID: 0}
+  hitSound: {fileID: 0}
+  missSound: {fileID: 0}
+  hitVolume: 1
+  missVolume: 0.6
 --- !u!212 &1722076027
 SpriteRenderer:
   serializedVersion: 2
@@ -4024,7 +4033,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1827201975
 Transform:
   m_ObjectHideFlags: 0
@@ -4103,6 +4112,12 @@ MonoBehaviour:
   greatThreshold: 1.09
   earlyPressDeadZone: 1.52
   debugLineHeight: 1.03
+  hitEffect: {fileID: 0}
+  audioSource: {fileID: 0}
+  hitSound: {fileID: 0}
+  missSound: {fileID: 0}
+  hitVolume: 1
+  missVolume: 0.6
 --- !u!61 &1853556113
 BoxCollider2D:
   m_ObjectHideFlags: 0

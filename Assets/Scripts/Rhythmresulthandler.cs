@@ -78,7 +78,16 @@ public class RhythmResultHandler : MonoBehaviour
 
     public void ShowResult()
     {
-        if (_resultShown) return;
+        
+        if (_resultShown) {
+           
+        Debug.LogWarning("[RhythmResultHandler] ShowResult() ถูกเรียกซ้ำแล้ว! จะไม่ทำอะไรอีกครั้ง.");
+           
+            return;
+        
+        
+        
+        }
         _resultShown = true;
 
         float scoreRatio   = ScoreManager.instance.ScoreRatio;
